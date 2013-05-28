@@ -11,5 +11,6 @@
         "settings": null,
         "underscore": null
     },
-    "modules": [ "js" ]
+    "modules": [ "js" ],
+    "load": "js/couchapp"
 }
