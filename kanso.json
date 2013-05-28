@@ -1,0 +1,15 @@
+{
+    "name": "kanso-angular-seed",
+    "version": "0.0.1",
+    "description": "a Kanso application with angular",
+    "attachments": ["static", "index.html"],
+    "dependencies": {
+        "angular": null,
+        "attachments": null,
+        "properties": null,
+        "modules": null,
+        "settings": null,
+        "underscore": null
+    },
+    "modules": [ "js" ]
+}

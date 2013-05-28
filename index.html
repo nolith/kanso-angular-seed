@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8" />
+  <title>Kanso Angular Seed</title>
+  <link rel="stylesheet" href="static/css/app.css"/>
+
+</head>
+  <body>
+    <ul class="menu">
+      <li><a href="#/view1">view1</a></li>
+      <li><a href="#/view2">view2</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <div>Angular seed app: v<span app-version></span></div>
+    <script src="modules.js"></script> <!-- shared code with kanso -->
+    <script type="text/javascript">
+        var _ = require('underscore')._;
+        var angularDeps = [
+          "angular",
+          // "lib/CornerCouch/angular-cornercouch",
+          "js/angular/app",
+          "js/angular/services",
+          "js/angular/controllers",
+          "js/angular/filters",
+          "js/angular/directives"
+        ];
+        _.each(angularDeps, require);
+
+      angular.element(document).ready(function() {
+        angular.bootstrap(document, ["myApp"]);
+      });
+    </script>
+  </body>
+</html>
