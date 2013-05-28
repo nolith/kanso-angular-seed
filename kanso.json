@@ -9,7 +9,8 @@
         "properties": null,
         "modules": null,
         "settings": null,
-        "underscore": null
+        "underscore": null,
+        "couchtypes": null
     },
     "modules": [ "js" ],
     "load": "js/couchapp"
